@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Memory Game</title>
+  <link href="memory-game.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+  <header>
+    <nav>
+      <div>
+        <ul class="nav-bar-items">
+          <li>
+            <a href="./index.html"><img src="./images/homeleaf.png" alt="home-leaf" style="width:42px;height:42px;"></a>
+          </li>
+          <li>
+            <a href="science">Science</a> 
+          </li>
+          <li>
+            <a href="harvest">Harvest</a>
+          </li>
+          <li>
+            <a href="activities">Activities</a>
+          </li>
+          <li>
+            <a href="benefits">Benefits</a> 
+          </li>
+          <li>
+            <a href="games">Games</a> 
+          </li>
+          <li>
+            <a href="gallery">Gallery</a>
+          </li>
+          <input id="search" type="text" placeholder="Search" name="search">
+        </ul>
+      </div>
+    </nav>  
+  </header>
+
+  <div class="container">
+    <div class="memory-game-title">
+      <h1>Fall Memory Game!</h1>
+      <section class="score-panel">
+        <span class="moves">0 Move(s)</span>
+        <div class="timer">0 mins 0 secs</div>
+      </section>
+    </div>
+
+    <div class="cards">
+      <div class="cards-deck">
+        <ul class="card-deck">
+          <li class="card" type="happy-fall">
+            <img src="./images/happy-fall.jpg" alt="happy-fall-img" width="250px" height="250px">
+          </li>
+          <li class="card" type="leaves">
+            <img src="./images/leaves.png" alt="leaves-img" width="250px" height="250px">
+          </li>
+          <li class="card" type="acorn">
+            <img src="./images/acorn.png" alt="acorn-img" width="250px" height="250px">
+          </li>
+          <li class="card" type="truck">
+            <img src="./images/truck.png" alt="truck-img" width="250px" height="250px">
+          </li>
+          <li class="card" type="fox">
+            <img src="./images/fox.png" alt="fox-img" width="250px" height="250px">
+          </li>
+          <li class="card" type="acorn">
+            <img src="./images/acorn.png" alt="acorn-img" width="250px" height="250px">
+          </li>
+          <li class="card" type="harvest-food">
+            <img src="./images/harvest-food.png" alt="harvest-food-img" width="250px" height="250px">
+          </li>
+          <li class="card" type="fox">
+            <img src="./images/fox.png" alt="fox-img" width="250px" height="250px">
+          </li>
+          <li class="card" type="wreath">
+            <img src="./images/wreath.png" alt="wreath-img" width="250px" height="250px">
+          </li>
+          <li class="card" type="owl">
+            <img src="./images/owl.png" alt="owl-img" width="250px" height="250px">
+          </li>
+          <li class="card" type="pumpkin">
+            <img src="./images/pumpkin.png" alt="pumpkin-img" width="250px" height="250px">
+          </li>
+          <li class="card" type="harvest-food">
+            <img src="./images/harvest-food.png" alt="harvest-food-img" width="250px" height="250px">
+          </li>
+          <li class="card" type="scarecrow">
+            <img src="./images/scarecrow.gif" alt="scarecrow-img" width="250px" height="250px">
+          </li>
+          <li class="card" type="sunflower">
+            <img src="./images/sunflower.png" alt="sunflower-img" width="250px" height="250px">
+          </li>
+          <li class="card" type="sunflower">
+            <img src="./images/sunflower.png" alt="sunflower-img" width="250px" height="250px">
+          </li>
+          <li class="card" type="leaves">
+            <img src="./images/leaves.png" alt="leaves-img" width="250px" height="250px">
+          </li> 
+          <li class="card" type="tree">
+            <img src="./images/tree.png" alt="tree-img" width="250px" height="250px">
+          </li>
+          <li class="card" type="scarecrow">
+            <img src="./images/scarecrow.gif" alt="scarecrow-img" width="250px" height="250px">
+          </li>
+          <li class="card" type="happy-fall">
+            <img src="./images/happy-fall.jpg" alt="happy-fall-img" width="250px" height="250px">
+          </li>
+          <li class="card" type="owl">
+            <img src="./images/owl.png" alt="owl-img" width="250px" height="250px">
+          </li>
+          <li class="card" type="pumpkin" >
+            <img src="./images/pumpkin.png" alt="pumpkin-img" width="250px" height="250px">
+          </li>
+          <li class="card" type="truck">
+            <img src="./images/truck.png" alt="truck-img" width="250px" height="250px">
+          </li>
+          <li class="card" type="wreath">
+            <img src="./images/wreath.png" alt="wreath-img" width="250px" height="250px">
+          </li>         
+          <li class="card" type="tree">
+            <img src="./images/tree.png" alt="tree-img" width="250px" height="250px">
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="fade modal" id="GameOverModal" aria-labelledby="myModalLabel" role="dialog" tabindex="-1">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="text-center modal-body">
+        <div class="text-center" style="display:block;clear:both;margin-bottom:25px">
+        </div>
+        
+        <!-- <h1>CONGRATULATIONS, YOU'RE A WINNER! 🎉</h1>
+        <h2>You made <span id="finalMove"></span> moves in <span id="totalTime"></span>
+        </h2>
+        
+        <div id="memory-share">
+        <a class="btn-info" id="play-again" onclick="window.location.reload(true)">PLAY AGAIN</a> -->
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+</body>
+</html>

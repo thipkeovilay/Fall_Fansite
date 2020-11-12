@@ -1,0 +1,172 @@
+body {
+  height: 100vh;
+  background-color: #6a040f;
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
+nav {
+  background-color: #e85d04;
+  list-style-type: none;
+}
+
+.nav-bar-items {
+  text-decoration: none;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+ul li {
+  padding: 12px;
+}
+
+ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+#search {
+  margin-left: 350px;
+  padding: 10px;
+  width: 200px;
+}
+
+.header-container {
+  max-width: 50;
+  height: 40%;
+  display: flex;
+  justify-content: space-evenly;
+  background-image: url("./images/fallleaves.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.information {
+  background-color: black;
+  margin: auto;
+  opacity: 0.5;
+  width: 50%;
+  height: 70%;
+  color: white;
+  text-align: center;
+}
+
+audio {
+  margin-left: 38%;
+}
+
+.subtitle {
+  display: flex;
+  justify-content: center;
+  color: #ffba08;
+  padding-top: 2%;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.row-img {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+div img {
+  width: 270px;
+  height: 250px;
+  margin-top: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center, space-evenly;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  color: #f48c06;
+}
+
+.test {
+  list-style-type: none;
+}
+
+.subtitle-two {
+  display: flex;
+  justify-content: center;
+  color: #ffba08;
+  padding-top: 2%;
+}
+
+.row-two {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.row-img-two {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.subtitle-three {
+  display: flex;
+  justify-content: center;
+  color: #ffba08;
+  padding-top: 2%;
+}
+
+#row-img-three {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 270px;
+}
+
+hr {
+  width: 100%;
+  margin-top: 5%;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  padding-top: 2%;
+  padding-bottom: 5%;
+}
+
+.about {
+  display: flex;
+  width: 60%;
+  padding: 10px;
+  grid-column-end: span 2;
+}
+
+.contact {
+  width: 25vw;
+  padding: 10px;
+}
+
+#about-img {
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: 0% 10%;
+  width: 80px;
+  height: 80px;
+  margin-right: 1rem;
+}
+
+.icon {
+  margin-top: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

@@ -1,0 +1,63 @@
+body {
+  height: 100vh;
+  background-color: #6a040f;
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
+nav {
+  background-color: #e85d04;
+  list-style-type: none;
+}
+
+.nav-bar-items {
+  text-decoration: none;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+ul li {
+  padding: 12px;
+}
+
+ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+#search {
+  margin-left: 350px;
+  padding: 10px;
+  width: 200px;
+}
+
+.memory-game-title {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+}
+
+.score-panel {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 300px;
+  margin-left: 38%;
+}
+
+.timer {
+  margin-left: 10%;
+}
+
+ul.card-deck {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
